@@ -19,5 +19,5 @@ def courses(request):
     return render(request, 'courses.html')
 
 
-def single(request):
-    return render(request, 'course-single.html')
+def teacher(request):
+    return render(request, 'teacher.html')
